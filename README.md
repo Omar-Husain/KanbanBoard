@@ -100,7 +100,4 @@ This project was developed as part of the CSCI 2020U course, incorporating conce
 
 ## Changelog
 
-### Version 1.1 (April 2025)
 
-- **Bug Fix**: Fixed an issue where only the "To Do" column was appearing in dropdown menus when adding or editing tasks. The problem was caused by improper handling of the pipe character (|) in the client's message processing logic, which resulted in the client only seeing the first column from the server's board data. This has been resolved by properly reconstructing the full board data from the message parts.
-- **Improved Logging**: Added additional debug logging to help diagnose communication issues between client and server.
